@@ -1,9 +1,7 @@
-import React from "react";
 import Header1 from "./mainpages/Header1";
 import Widget1 from "./mainpages/Widget1";
 import Widget2 from "./mainpages/Widget2";
 import Widget3 from "./mainpages/Widget3";
-import Widget4 from "./mainpages/WIdget4";
 
 const MainPage = () => {
     return (

@@ -1,6 +1,5 @@
 import React, { type JSX } from "react";
 import {
-    FaCheckCircle,
     FaEdit,
     FaTrash,
     FaToggleOn,
@@ -125,7 +124,7 @@ const columns = [
     },
     {
         name: "Actions",
-        cell: (row: any) => (
+        cell: () => (
             <div className="d-flex gap-2">
                 <FaToggleOn size={18} className="text-primary" style={{ backgroundColor: '#bcbcf0', padding: '3px', borderRadius: '3px' }} title="Toggle" />
                 <FaEdit size={18} className="text-primary" style={{ backgroundColor: '#bcbcf0', padding: '3px', borderRadius: '3px' }} title="Edit" />

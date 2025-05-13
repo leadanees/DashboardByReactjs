@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import SideBardMenu from "./SideBardMenu";
 import MainPage from "./MainPage";
 import { FaBars } from "react-icons/fa";
