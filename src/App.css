@@ -1,0 +1,25 @@
+:root {
+  --main-bg: #f2f6fe;
+}
+
+.app-wrapper {
+  padding: 0;
+  margin: 0;
+  background-color: var(--main-bg);
+}
+
+.btn-light-blue {
+  color: #336699 !important;             /* Text: soft Bootstrap blue */
+  border: none !important;
+}
+
+.btn-light-blue:hover {
+  background-color: #d0e7ff !important;  /* Hover: slightly darker */
+  color: #0056b3 !important;             /* Slightly deeper blue */
+}
+
+.btn-light-blue.active {
+  background-color: #cce0ff !important;  /* Active: just a step darker */
+  color: #0056b3 !important;
+  font-weight: 500;
+}
